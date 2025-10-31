@@ -21,8 +21,12 @@ function setup() {
 function draw() {
   if (!started) {
     background(0);
+  
     fill(255);
-    
+    textAlign(CENTER, CENTER);
+    textSize(24);
+    text("Click to run", width / 2, height / 2 - 20);
+    text("Volume on", width / 2, height / 2 + 20);
     return;
   }
 
